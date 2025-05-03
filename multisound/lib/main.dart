@@ -16,6 +16,7 @@ class Xylophone extends StatelessWidget {
       children: [
         buildKey(soundNumber: 1, color: Colors.red),
         buildKey(soundNumber: 2, color: Colors.orange),
+        buildKey(soundNumber: 3, color: const Color.fromARGB(255, 36, 204, 87)),
       ],
     ));
   }
